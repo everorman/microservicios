@@ -1,0 +1,18 @@
+{
+  "name": "microservicios",
+  "version": "1.0.0",
+  "description": "Prueba practica de curso de platzi ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservicios",
+    "platzi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
