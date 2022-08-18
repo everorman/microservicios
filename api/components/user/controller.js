@@ -21,6 +21,7 @@ module.exports = function (injectedStore) {
     const user = {
       name,
       username,
+      password
     }
 
     if (id) {
@@ -30,7 +31,7 @@ module.exports = function (injectedStore) {
     }
 
     if (password || username) {
-      await auth.upsert({ ...user })
+      await auth.upsert({  id: user.id, username, password });
     }
 
     return store.upsert(TABLA, user);
