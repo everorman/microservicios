@@ -20,8 +20,7 @@ module.exports = function (injectedStore) {
     const { id, name, username, password } = body;
     const user = {
       name,
-      username,
-      password
+      username
     }
 
     if (id) {
